@@ -1,0 +1,162 @@
+h1{
+	color: #F5F5F5;
+	text-align: center;
+	font-family: calibri;
+}
+strong{
+	color: yellow;
+}
+p{
+	color: white;
+}
+body{
+	background-color: white;
+}
+.corpo{
+	margin: 0 auto;
+    width: 1200px;
+    min-height: 1500px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: black;
+}
+.cabecalho{
+	margin-top: 3px;
+    width: 100%;
+    height: 220px;
+    border: 2px white;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url('../img/cinema.jpg');
+}
+.centro1 {
+    margin-top: 10px;
+    margin-left: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 200px;
+    min-height: 500px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    float: left;
+    background-color: red;
+    text-align: justify;
+    font-family: calibri;
+}
+.centro2 {
+    margin-top: 45px;
+    margin-left: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 1192px;
+    min-height: 700px;
+    border: 2px white;
+    border-style: solid;
+    border-radius: 10px;
+    float: left;
+    background-color: BLACK;
+    text-align: justify;
+    font-family: calibri;
+    background-image: url('../img/estrela3.jpg');
+}
+
+.rodape {
+    margin-top: 0px;
+   
+    width: 100%;
+    height: 340px;
+    border: 2px white;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    background-image: url('../img/cine.jpg');
+    background-color: black;
+}
+
+#menu-site ul {
+    padding: 3px;
+    margin: 2px;
+    background-color: black;
+    list-style: none;
+    font-size: 20px;
+    font-family: helvetica;
+}
+#menu-site ul li {
+    display: block;
+}
+#menu-site ul li a{
+    margin: 2px;
+    padding: 10px;
+    display: block;
+
+    /*visual do link*/
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    border: 1px black;
+    border-style: solid;
+    border-radius: 10px;
+}
+#menu-site ul li a:hover{
+    background-color: #E6E6FA;
+    color: red;
+    border-bottom: 3px solid #708090;
+}
+#menu ul {
+    padding: 3px;
+    margin: 2px;
+    background-color: red;
+    list-style: none;
+    font-size: 20px;
+    font-family: helvetica;
+}
+#menu ul li {
+    display: inline-block;
+}
+#menu ul li a{
+    margin: 2px;
+    padding: 10px;
+    display: block;
+
+    /*visual do link*/
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    border: 1px black;
+    border-style: solid;
+    border-radius: 10px;
+}
+#menu ul li a:hover{
+    background-color: white;
+    color: white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+    border: 1px solid black;
+    color: red;
+    text-transform: uppercase;
+    background-color: white;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 2.5s;
+}
+.c21{
+    margin: 15px;
+    padding-right: 0px;
+    width: 200px;
+    height: 405px;
+    border: 2px white;
+    border-style: solid;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+}
+#hert a: hover{
+    background-color: #E6E6FA;
+    color: red;
+    border-bottom: 3px solid #708090;
